@@ -1,2 +1,2 @@
 # Django-Rest
-A demo django fro learning the Django Rest Framework
+A demo django project for learning the Django Rest Framework
