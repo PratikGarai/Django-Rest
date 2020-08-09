@@ -3,7 +3,7 @@ from django.http import HttpResponse, JsonResponse
 from rest_framework.parsers import JSONParser
 from .models import Snippet
 from .serializers import SnippetSerializer
-from dajngo.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt
 
 @csrf_exempt
 def snippet_list(request):
