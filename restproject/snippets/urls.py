@@ -13,6 +13,7 @@ urlpatterns = [
         # path('',views.snippet_list, name="Snippet-List"),
         # path('<int:pk>/', views.snippet_detail, name="Snippet-Detail"),
         path('',views.SnippetList.as_view(), name="SnippetList"),
+        path('<int:pk>',views.SnippetDetail.as_view(), name="SnippetDetail"),
         ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
